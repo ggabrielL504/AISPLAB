@@ -25,7 +25,7 @@ void PrintPriorityQueue(Position);
 
 
 
-void main(void)
+int main()
 {
 	struct _Node S;
 	char choice = 0;
@@ -75,17 +75,22 @@ void main(void)
 		switch (choice)
 		{
 		case '1':
-			if (n < max)
-				n = Push(&S, GetValueFromRange(0, 10000), n);
-			else
-				printf("\nStack is fulln!\r\n");
-			PrintList(S.Next, n);
-			break;
-		case '2':
-			if (n > 0)
-				n = Pop(&S, n);
-			PrintList(S.Next, n);
-			break;
+    if (n < max)
+    {
+        int tmp = Push(&S, GetValueFromRange(0, 10000), n);
+        if (tmp == -1)  
+        {
+            printf("\nMemory allocation error!\n");
+            DeleteAll(&S);
+            DeleteAll(&Q);
+            return -1;   
+        }
+        n = tmp;
+    }
+    else
+        printf("\nStack is full!\n");
+    PrintList(S.Next, n);
+    break;
 		
 		case '3':
 		{
@@ -117,7 +122,9 @@ void main(void)
 		}
 	}
 
-
+DeleteAll(&S);
+DeleteAll(&Q);   
+return 0;
 }
 
 int GetValueFromRange(int min, int max)
