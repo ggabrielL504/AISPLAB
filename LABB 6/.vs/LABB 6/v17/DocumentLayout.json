@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabriel\\Documents\\AISP LAB\\LABB 6\\",
+  "WorkspaceRootPath": "C:\\Users\\gabriel\\Documents\\AISP_LAB\\LABB 6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4218D4D1-64BD-43ED-9A8C-A89A07245345}|LABB 6\\LABB 6.vcxproj|C:\\Users\\gabriel\\Documents\\AISP LAB\\LABB 6\\LABB 6\\zadatak6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4218D4D1-64BD-43ED-9A8C-A89A07245345}|LABB 6\\LABB 6.vcxproj|C:\\Users\\gabriel\\Documents\\AISP_LAB\\LABB 6\\LABB 6\\zadatak6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4218D4D1-64BD-43ED-9A8C-A89A07245345}|LABB 6\\LABB 6.vcxproj|solutionrelative:LABB 6\\zadatak6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "zadatak6.c",
-              "DocumentMoniker": "C:\\Users\\gabriel\\Documents\\AISP LAB\\LABB 6\\LABB 6\\zadatak6.c",
+              "DocumentMoniker": "C:\\Users\\gabriel\\Documents\\AISP_LAB\\LABB 6\\LABB 6\\zadatak6.c",
               "RelativeDocumentMoniker": "LABB 6\\zadatak6.c",
-              "ToolTip": "C:\\Users\\gabriel\\Documents\\AISP LAB\\LABB 6\\LABB 6\\zadatak6.c",
+              "ToolTip": "C:\\Users\\gabriel\\Documents\\AISP_LAB\\LABB 6\\LABB 6\\zadatak6.c",
               "RelativeToolTip": "LABB 6\\zadatak6.c",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAiwJMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-12T05:49:16.271Z",
               "EditorCaption": ""

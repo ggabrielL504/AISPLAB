@@ -18,6 +18,7 @@ int Pop(Position, int*);
 int calculate(Position);
 int Print(Position);
 int deleteAll(Position);
+int Count(Positon);
 
 int main() {
     struct node Head;
@@ -69,9 +70,14 @@ int calculate(Position P) {
     }
 
     while (fscanf(fp, "%s", buffer) == 1) {
-        if (isdigit(buffer[0])) { 
-            PushStack(P, atoi(buffer));
+        if (PushStack(P, atoi(buffer)) != 0)
+        {
+            printf("Memory allocation error!\n");
+            deleteAll(P);
+            fclose(fp);
+            return ERRORMEMORY;
         }
+
         else if (strlen(buffer) == 1 && strchr("+-*/", buffer[0])) { 
             if (Pop(P, &operand2) != 0 || Pop(P, &operand1) != 0) {
                 printf("Postfix is not correct!\n");
@@ -102,7 +108,14 @@ int calculate(Position P) {
                 fclose(fp);
                 return -1;
             }
-            PushStack(P, result);
+            if (PushStack(P, result) != 0)
+            {
+                printf("Memory allocation error!\n");
+                deleteAll(P);
+                fclose(fp);
+                return ERRORMEMORY;
+            }
+
         }
         else {
             printf("Unknown symbol: %s\n", buffer);
@@ -127,6 +140,18 @@ int Print(Position P) {
     printf("\n");
     return 0;
 }
+
+int Count(Position P)
+{
+    int count = 0;
+    while (P != NULL)
+    {
+        count++;
+        P = P->next;
+    }
+    return count;
+}
+
 
 int deleteAll(Position P) {
     Position temp = NULL;

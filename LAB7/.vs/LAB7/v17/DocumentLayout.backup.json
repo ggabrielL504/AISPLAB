@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabriel\\Documents\\AISP LAB\\LAB7\\",
+  "WorkspaceRootPath": "C:\\Users\\gabriel\\Documents\\AISP_LAB\\LAB7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34A72104-12E6-4F58-909B-1C9B50086CA9}|LAB7\\LAB7.vcxproj|C:\\Users\\gabriel\\Documents\\AISP LAB\\LAB7\\LAB7\\zadatak7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{34A72104-12E6-4F58-909B-1C9B50086CA9}|LAB7\\LAB7.vcxproj|C:\\Users\\gabriel\\Documents\\AISP_LAB\\LAB7\\LAB7\\zadatak7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34A72104-12E6-4F58-909B-1C9B50086CA9}|LAB7\\LAB7.vcxproj|solutionrelative:LAB7\\zadatak7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "zadatak7.c",
-              "DocumentMoniker": "C:\\Users\\gabriel\\Documents\\AISP LAB\\LAB7\\LAB7\\zadatak7.c",
+              "DocumentMoniker": "C:\\Users\\gabriel\\Documents\\AISP_LAB\\LAB7\\LAB7\\zadatak7.c",
               "RelativeDocumentMoniker": "LAB7\\zadatak7.c",
-              "ToolTip": "C:\\Users\\gabriel\\Documents\\AISP LAB\\LAB7\\LAB7\\zadatak7.c",
+              "ToolTip": "C:\\Users\\gabriel\\Documents\\AISP_LAB\\LAB7\\LAB7\\zadatak7.c",
               "RelativeToolTip": "LAB7\\zadatak7.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-12T05:49:48.745Z",
               "EditorCaption": ""

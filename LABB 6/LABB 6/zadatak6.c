@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#define ERRORMEMORY -2;
+#define ERRORMEMORY -2
 #define MAX 100
 #define MIN 10
 struct node;
@@ -41,6 +41,9 @@ int main() {
 				resualt = PushStack(&headStack, getRandom());
 				if (resualt == -2) {
 					printf(" Greska.\n");
+					deletAll(&headStack);
+					deletAll(&headQueue);
+					return ERRORMEMORY;
 				}
 				else {
 					printf(" Sve je proslo u redu.\n");
@@ -61,6 +64,9 @@ int main() {
 				resualt = PushQueue(&headQueue, getRandom());
 				if (resualt == -2) {
 					printf(" Greska.\n");
+					deletAll(&headStack);
+					deletAll(&headQueue);
+					return ERRORMEMORY;
 				}
 				else {
 					printf(" Sve je proslo u redu.\n");

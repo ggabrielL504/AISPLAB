@@ -1,2 +1,3 @@
 ﻿  zadatak7.c
-  LAB7.vcxproj -> C:\Users\gabriel\Documents\AISP LAB\LAB7\x64\Debug\LAB7.exe
+C:\Users\gabriel\Documents\AISP_LAB\LAB7\LAB7\zadatak7.c(71,4): warning C4098: 'main': 'void' function returning a value
+  LAB7.vcxproj -> C:\Users\gabriel\Documents\AISP_LAB\LAB7\x64\Debug\LAB7.exe
