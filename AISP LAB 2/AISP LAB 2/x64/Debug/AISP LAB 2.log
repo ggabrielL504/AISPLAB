@@ -1,0 +1,4 @@
+﻿  zadatak2.c
+C:\Users\gabriel\Documents\AISP LAB\AISP LAB 2\AISP LAB 2\zadatak2.c(173,3): warning C4098: 'printList': 'void' function returning a value
+C:\Users\gabriel\Documents\AISP LAB\AISP LAB 2\AISP LAB 2\zadatak2.c(117,1): warning C4715: 'pushBack': not all control paths return a value
+  AISP LAB 2.vcxproj -> C:\Users\gabriel\Documents\AISP LAB\AISP LAB 2\x64\Debug\AISP LAB 2.exe
